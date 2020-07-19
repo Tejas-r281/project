@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+}
+
+.nav_class {
+    background: #fff;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+    position: ;
+}
+
+.navbar-brand {
+    width: 40px;
+    height: auto;
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    position: relative;
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-nav li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: #ff7230;
+    transition: all .3s linear;
+}
+
+.navbar-nav li a:hover:before {
+    width: 90%;
+}
+
+.navbar-nav li a:hover {
+    color: green !important;
+}
+
+@media(max-width:982px) {
+    .navbar-nav {
+        margin-top: 40px !important;
+        text-align: center !important;
+    }
+    .navbar-nav li a:hover:before {
+        width: 0%;
+    }
+}
+
+.row {
+    margin: 0px !important;
+    /* padding: 0px !important; */
+}
+
+.hire_me {
+    width: 160px;
+    height: 40px;
+    background: #ff7230;
+    text-transform: capitalize;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.about_me {
+    width: 160px;
+    height: 40px;
+    color: #ff7230;
+    text-transform: capitalize;
+    background: #fff;
+    outline: none;
+    border: 1px solid #ff7230;
+    transition: all 0.3s linear;
+}
+
+.hire_me:hover {
+    background: #fff;
+    color: #ff7230;
+    border: 1px solid #ff7230;
+}
+
+.about_me:hover {
+    background: #ff7230;
+    color: #fff;
+    border: none;
+}
+
+.div_class {
+    padding: 40px 0 0 0;
+}
+
+.main_title {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: ;
+}
+
+.main_title:before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 4%;
+    background: seagreen;
+    top: 100%;
+    bottom: 50%;
+}
+
+.hello,
+.i {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.i {
+    margin-top: -30px;
+}
+
+.progress {
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.pb_1 {
+    width: 85%;
+    background: green;
+    border-radius: 4px;
+}
+
+.pb_2 {
+    width: 75%;
+    background: red;
+    border-radius: 4px;
+}
+
+.pb_3 {
+    width: 65%;
+    background: black;
+    border-radius: 4px;
+}
+
+.expert_sec h2 {
+    position: relative;
+}
+
+.expert_h1::before {
+    content: "85%";
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+    font-size: 500;
+}
+
+.expert_h2::before {
+    content: "75%";
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+    font-size: 500;
+}
+
+.expert_h3::before {
+    content: "65%";
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+    font-size: 500;
+}
+
+.common_div {
+    padding: 100px;
+}
+
+.our_services {
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.servicediv {
+    background: #f6f6f6;
+    padding: 20px 10px 70px 10px;
+    margin-top: 50px;
+    position: relative;
+    transition: all 0.5s linear;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+    width: auto;
+    height: auto;
+}
+
+.servicediv:hover {
+    background: #fff;
+    box-shadow: 0 0 4px 1px gray;
+}
+
+.servicediv h1 {
+    text-align: center;
+    border-radius: 50%;
+    font-size: 52px;
+    color: #ff7230;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    transition: all 0.5s linear;
+    background: #ffeee6;
+}
+
+.servicediv h1:hover {
+    background: #fff;
+    border: 1px solid #ff7230;
+}
+
+.fa-dot-circle {
+    color: #ff7230;
+}
+
+.fa-heart {
+    color: #fff;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+}
+
+.servicediv:hover .fa-heart {
+    color: #ffeee6;
+}
+
+.hireme_section {
+    padding: 45px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url("../paise1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
